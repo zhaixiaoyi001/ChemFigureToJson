@@ -208,3 +208,9 @@ The script prints the raw OCSR result to stdout. It requires the `requests` pack
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./LICENSE) file for details.
+
+## Contributors
+
+- [@zhaixiaoyi001](https://github.com/zhaixiaoyi001)
+- [@jenniett](https://github.com/jenniett)
+- [@xuhan323](https://github.com/xuhan323)
