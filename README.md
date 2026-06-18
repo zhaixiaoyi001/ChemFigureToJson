@@ -60,37 +60,29 @@ pip install -r requirements.txt
 
 If you use the exact commands from the skill, make sure those packages are available inside the Conda `base` environment.
 
-## Quick Start
+## Usage
 
-1. Put the source reaction figure in your working directory as a PNG.
+1. Install this repository as a Codex skill by placing the whole `ChemFigureToJson` directory in your Codex skills directory.
 
-2. Run molecule detection:
-
-```powershell
-conda run -n base python scripts/moldetv2.py path\to\figure.png --output tmp\figure\figure.boxes.png
-```
-
-The command prints detection JSON to stdout and writes an annotated PNG containing molecule boxes only.
-
-3. Inspect the annotated PNG and crop each target chemical structure from the original image, not from the annotated image.
-
-Suggested crop names:
+Windows:
 
 ```text
-tmp/figure/general_reactant_01.png
-tmp/figure/general_product_01.png
-tmp/figure/example_01_product.png
-tmp/figure/step_01_reactant_01.png
-tmp/figure/step_01_product_01.png
+%USERPROFILE%\.codex\skills\ChemFigureToJson
 ```
 
-4. Run OCSR on each cropped molecule:
+macOS/Linux:
 
-```powershell
-conda run -n base python scripts/ocsr.py tmp\figure\example_01_product.png
+```text
+~/.codex/skills/ChemFigureToJson
 ```
 
-5. Compose the final JSON according to the schema below. Keep a same-basename `.txt` cache beside the source image while working, recording detections, selected boxes, crop filenames, raw OCSR output, visible conditions, uncertainties, and normalization decisions.
+2. In Codex, ask the skill to convert the target figures:
+
+```text
+Please convert the Figure xxxx.png - xxxx.png to json, save in json dir.
+```
+
+The `json dir` means a `json/` directory under the current working directory. Codex will follow `SKILL.md` to detect structures, run OCSR, normalize SMILES, extract visible conditions, and save the final JSON files.
 
 ## Output Schema
 
