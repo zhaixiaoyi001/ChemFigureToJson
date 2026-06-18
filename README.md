@@ -215,4 +215,4 @@ The script prints the raw OCSR result to stdout. It requires the `requests` pack
 
 ## License
 
-No license file is currently included. Add a license before publishing if you want others to use, modify, or redistribute the project.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](./LICENSE) file for details.
