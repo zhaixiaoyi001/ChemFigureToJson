@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chem Figure to JSON"
+  short_description: "Extract chemical figures to JSON"
+  default_prompt: "Use $chem-figure-to-json to extract strict JSON from this chemical reaction figure."

@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "D:\\compete\\ChemFigureToJson\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "cecae8c02c7e92772d5d492ed990c6731ef8bb1bdd870d65c52c74f000e394d2",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

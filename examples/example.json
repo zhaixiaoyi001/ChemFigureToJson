@@ -1,0 +1,101 @@
+{
+  "reactions": [
+    [
+      {
+        "relations": [
+          "R1 = Ph, p-BrC6H4, p-ClC6H4, (CH2)4",
+          "R2 = H, (CH2)4",
+          "R3 = p-MeC6H4, c-C3H5, p-t-BuC6H4, MeOCH2, Me(CH2)2"
+        ],
+        "text": "O=C(CC#CC1CC1)c1ccccc1",
+        "type": "reactants"
+      },
+      {
+        "relations": [
+          "10 mol%"
+        ],
+        "text": "[Zn+2].[Cl-].[Cl-]",
+        "type": "reagent"
+      },
+      {
+        "relations": [],
+        "text": "ClCCl",
+        "type": "reagent"
+      },
+      {
+        "relations": [],
+        "text": "rt",
+        "type": "temperature"
+      },
+      {
+        "text": "c1ccc(-c2ccc(C3CC3)o2)cc1",
+        "relations": [
+          "85% yield"
+        ],
+        "type": "products"
+      }
+    ],
+    [
+      {
+        "text": "CCCC#CC1CCCCC1=O",
+        "relations": [],
+        "type": "reactants"
+      },
+      {
+        "text": "CCCc1cc2c(o1)CCCC2",
+        "relations": [
+          "89% yield"
+        ],
+        "type": "products"
+      },
+      {
+        "relations": [
+          "10 mol%"
+        ],
+        "text": "[Zn+2].[Cl-].[Cl-]",
+        "type": "reagent"
+      },
+      {
+        "relations": [],
+        "text": "ClCCl",
+        "type": "reagent"
+      },
+      {
+        "relations": [],
+        "text": "rt",
+        "type": "temperature"
+      }
+    ],
+    [
+      {
+        "text": "CC(C)(C)c1ccc(C#CCC(=O)c2ccc(Br)cc2)cc1",
+        "relations": [],
+        "type": "reactants"
+      },
+      {
+        "text": "CC(C)(C)c1ccc(-c2ccc(-c3ccc(Br)cc3)o2)cc1",
+        "relations": [
+          "96% yield"
+        ],
+        "type": "products"
+      },
+      {
+        "relations": [
+          "10 mol%"
+        ],
+        "text": "[Zn+2].[Cl-].[Cl-]",
+        "type": "reagent"
+      },
+      {
+        "relations": [],
+        "text": "ClCCl",
+        "type": "reagent"
+      },
+      {
+        "relations": [],
+        "text": "rt",
+        "type": "temperature"
+      }
+    ]
+  ]
+}

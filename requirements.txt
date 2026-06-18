@@ -1,0 +1,36 @@
+# Pip-installable dependencies for this skill.
+#
+# RDKit is required for SMILES validation and normalization, but it should be
+# installed with conda instead of pip:
+#
+#   conda install -c conda-forge rdkit
+#
+# The local Conda base environment used to develop this skill has:
+#
+#   rdkit==2024.03.5
+#   ultralytics==8.4.62
+#   torch==2.8.0+cu126
+#   torchvision==0.23.0+cu126
+#
+# If you need CUDA-enabled PyTorch, install torch/torchvision with the command
+# recommended by the official PyTorch selector for your CUDA or CPU platform.
+# The pins below use the public package versions without the local CUDA suffix.
+#
+# After RDKit is available in your environment, install the remaining packages:
+#
+#   pip install -r requirements.txt
+
+requests==2.32.2
+ultralytics==8.4.62
+torch==2.8.0
+torchvision==0.23.0
+opencv-python==4.13.0.92
+Pillow==10.3.0
+numpy==2.2.6
+PyYAML==6.0.1
+scipy==1.13.1
+matplotlib==3.8.4
+pandas==2.2.2
+tqdm==4.66.4
+psutil==5.9.0
+seaborn==0.13.2
