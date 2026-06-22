@@ -88,7 +88,7 @@ The `json dir` means a `json/` directory under the current working directory. Co
 
 The final output is one top-level JSON object with a `reactions` array. Each reaction entry is an array of objects with exactly these fields:
 
-- `text`: concrete standard SMILES, source text for unreliably converted non-structural reagents, or a condition value such as `80 掳C` or `rt`.
+- `text`: concrete standard SMILES, source text for unreliably converted non-structural reagents, or a condition value such as `80 °C` or `rt`.
 - `type`: `reactants`, `products`, `reagent`, `temperature`, `pressure`, `time`, or another concise lowercase condition type when needed.
 - `relations`: visible relation text copied from the image, such as yield, ee, dr, equivalents, loading, R-group definitions, or step labels. Use `[]` when no relation text is visible.
 
